@@ -1,0 +1,209 @@
+/*-----------------------------------------------------
+                CSS RESET
+----------------------------------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+
+/*-----------------------------------------------------
+                Formatação geral
+----------------------------------------------------*/
+
+html {
+    font-size: calc(10px + 1vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21243d;
+}
+
+html body a {
+    text-decoration: none;
+    color: #21243d;
+}
+
+main {
+    margin: 0vw 20vw 0vw 15vw;
+}
+
+
+/*-----------------------------------------------------
+                Formatação do topo página
+----------------------------------------------------*/
+
+header {
+    margin: 0vw 7vw 5vw 0vw;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: right;
+}
+
+header nav ul li {
+    margin: 4vw 10px 0 10px;
+}
+
+header nav ul li.atual a {
+    color: orangered;
+}
+
+/*-----------------------------------------------------
+                Formatação de works
+----------------------------------------------------*/
+
+main.works h1 {
+    font-weight: normal;
+    margin: 0vw 0vw -1vw 0vw;
+}
+
+main.works section:last-child {
+    border: none;
+}
+
+main.works section {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 5vw 0vw 4vw 0vw;
+}
+
+main.works section p {
+    margin: 2vw 0vw 2vw 0vw;
+
+}
+
+main.works section p span {
+    color: white;
+    background-color: rgb(255, 115, 0);
+    border-radius: 30px;
+    padding: 2px 10px 2px 10px;
+    font-weight: bold;
+}
+
+
+/*-----------------------------------------------------
+                Formatação de HomePage
+----------------------------------------------------*/
+
+section.banner{
+    display: flex;
+    margin: 9vw 0vw 5vw 0vw;
+}
+
+section.banner h1{
+    font-size: 1.5rem;
+    margin: 0vw 0vw 2vw;
+}
+
+section.banner p{
+    font-size: 0.7rem;
+    margin: 1vw 7vw 3vw 0vw;
+}
+
+section.banner button{
+    color: white;
+    font-size: 1.2vw;
+    background-color: rgba(255, 100, 100, 1);
+    border-radius: 3px;
+    padding: 10px 18px 10px 18px;
+}
+
+section.RtPost{
+    background-color: #d8edf5;
+    padding: 3vw 5px 3vw 20px;
+}
+
+section.RtPost h2 {
+    font-weight: normal;
+    margin: 0 0 2vw 0
+}
+
+section.RtPost ul{
+    display: flex;
+    padding: 1vw;
+}
+
+section.RtPost ul li{
+    background-color: white;
+    padding: 2vw 2vw 2vw 1.5vw;
+    margin: 0vw 3vw 0vw 1vw;
+}
+
+section.RtPost ul li:last-child{
+    margin: 0;
+}
+    
+section.RtPost ul li p{
+    margin: 2.5vw 0vw 1vw 0vw;
+    font-size: 0.7rem;
+}
+
+section.ft-works h2 {
+    font-size: 2rem;
+    margin: 0vw 0vw 3vw 0vw;
+}
+
+section.ft-works > div {
+    display: flex;
+}
+section.ft-works > div div {
+    margin: 0 0vw 0 4vw;
+}
+section.ft-works > div div:first-child {
+margin: 0;
+}
+section.ft-works div h3 {
+    margin: 2vw 0 2vw 0;
+}
+
+section.ft-works div img {
+
+}
+
+section.ft-works div h3 {
+    margin: 2vw 0vw 2vw 0vw;
+}
+
+section.ft-works div span:first-child {
+    color: white;
+    background-color: #142850;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 2px 10px 2px 10px;
+}
+
+section.ft-works div span:last-child {
+    color: #8695A4;
+}
+section.ft-works div p:last-child {
+    margin: 2vw 0 0 0;
+}
+
+
+/*-----------------------------------------------------
+                Formatação do rodape
+----------------------------------------------------*/
+
+footer {
+    text-align: center;
+    padding: 1vw 0vw 2vw 0vw;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 15vw 1vw 2vw;
+    font-size: 1.4rem;
+}
+
+footer nav ul a span {
+    color: #21243D;
+}
+footer nav p {
+    font-size: 20px;
+}
